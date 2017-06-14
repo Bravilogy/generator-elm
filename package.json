@@ -1,0 +1,11 @@
+{
+    "name": "generator-elm",
+    "version": "1.0.0",
+    "description": "Elm + Webpack starter kit",
+    "files": [
+        "generators"
+    ],
+    "dependencies": {
+        "yeoman-generator": "^1.0.0"
+    }
+}

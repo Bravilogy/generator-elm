@@ -32,32 +32,32 @@ module.exports = Generator.extend({
                 this.destinationPath('src/index.js')
             );
             this.fs.copy(
-                this.templatePath('_src/Main.elm'),
-                this.destinationPath('src/Main.elm')
+                this.templatePath('_src/elm/Main.elm'),
+                this.destinationPath('src/elm/Main.elm')
             );
             this.fs.copy(
-                this.templatePath('_src/Models.elm'),
-                this.destinationPath('src/Models.elm')
+                this.templatePath('_src/elm/Models.elm'),
+                this.destinationPath('src/elm/Models.elm')
             );
             this.fs.copy(
-                this.templatePath('_src/Msgs.elm'),
-                this.destinationPath('src/Msgs.elm')
+                this.templatePath('_src/elm/Msgs.elm'),
+                this.destinationPath('src/elm/Msgs.elm')
             );
             this.fs.copy(
-                this.templatePath('_src/Update.elm'),
-                this.destinationPath('src/Update.elm')
+                this.templatePath('_src/elm/Update.elm'),
+                this.destinationPath('src/elm/Update.elm')
             );
             this.fs.copy(
-                this.templatePath('_src/View.elm'),
-                this.destinationPath('src/View.elm')
+                this.templatePath('_src/elm/View.elm'),
+                this.destinationPath('src/elm/View.elm')
             );
             this.fs.copy(
-                this.templatePath('_src/Commands.elm'),
-                this.destinationPath('src/Commands.elm')
+                this.templatePath('_src/elm/Commands.elm'),
+                this.destinationPath('src/elm/Commands.elm')
             );
             this.fs.copy(
-                this.templatePath('_src/app.scss'),
-                this.destinationPath('src/app.scss')
+                this.templatePath('_src/scss/app.scss'),
+                this.destinationPath('src/scss/app.scss')
             );
         }
     },

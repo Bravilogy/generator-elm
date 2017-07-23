@@ -1,6 +1,6 @@
 # Elm starter kit
 
-Elm starter-kit for playing around. Comes with `webpack + elm + sass` combo.
+Elm starter-kit for playing around. Comes with `webpack + elm + sass + bootstrap` combo.
 
 ## Installation
 If you don't have `yeoman` set up yet, then first do:

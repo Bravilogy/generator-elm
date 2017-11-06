@@ -36,26 +36,6 @@ module.exports = Generator.extend({
                 this.destinationPath('src/elm/Main.elm')
             );
             this.fs.copy(
-                this.templatePath('_src/elm/Models.elm'),
-                this.destinationPath('src/elm/Models.elm')
-            );
-            this.fs.copy(
-                this.templatePath('_src/elm/Msgs.elm'),
-                this.destinationPath('src/elm/Msgs.elm')
-            );
-            this.fs.copy(
-                this.templatePath('_src/elm/Update.elm'),
-                this.destinationPath('src/elm/Update.elm')
-            );
-            this.fs.copy(
-                this.templatePath('_src/elm/View.elm'),
-                this.destinationPath('src/elm/View.elm')
-            );
-            this.fs.copy(
-                this.templatePath('_src/elm/Commands.elm'),
-                this.destinationPath('src/elm/Commands.elm')
-            );
-            this.fs.copy(
                 this.templatePath('_src/scss/app.scss'),
                 this.destinationPath('src/scss/app.scss')
             );
